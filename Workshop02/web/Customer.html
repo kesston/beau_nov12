@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TODO supply a title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<h1>Insert New Customer</h1>
+
+		<form method="POST" action="customer">
+
+                    <table>
+                        <tr>
+					<td>Id:</td>
+					<td> <input type="number" name="customerId"> </td>
+				</tr>
+				<tr>
+					<td>Name:</td>
+					<td> <input type="text" name="name"> </td>
+				</tr>
+				<tr>
+					<td>Address1:</td>
+					<td> <input type="text" name="addressline1"> </td>
+				</tr>
+				<tr>
+					<td>Address1:</td>
+					<td> <input type="text" name="addressline2"> </td>
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td> <input type="text" name="city"> </td>
+				</tr>
+				<tr>
+					<td>State:</td>
+					<td> <input type="text" name="state"> </td>
+				</tr>
+				<tr>
+					<td>Zip:</td>
+					<td> <input type="text" name="zip"> </td>
+				</tr>
+				<tr>
+					<td>Phone:</td>
+					<td> <input type="text" name="phone"> </td>
+				</tr>
+				<tr>
+					<td>Fax:</td>
+					<td> <input type="text" name="fax"> </td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td> <input type="text" name="email"> </td>
+				</tr>
+				<tr>
+					<td>Credit Limit:</td>
+					<td> <input type="number" name="creditLimit" value="0" min="0"> </td>
+				</tr>
+				<tr>
+					<td>Discount:</td>
+					<td> 
+						<select name="discountCode">
+							<option value="H">H</option>
+							<option value="N">N</option>
+							<option value="L">L</option>
+							<option value="M">M</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit">Add</button>    
+				
+					</td>
+				</tr>
+			
+			</table>
+		</form>
+	</body>
+</html>
